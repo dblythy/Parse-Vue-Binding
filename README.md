@@ -3,7 +3,7 @@
 
 ## About
 
-The project demos how to use the upcoming Parse JS feature `dotNotation`.
+The project demos how to use the upcoming Parse JS feature [dotNotation](https://github.com/parse-community/Parse-SDK-JS/pull/1484).
 
 Dot Notation allows all Parse Objects' properties to be accessed via `object.key`, instead of `object.get('key')`.
 
