@@ -1,4 +1,4 @@
-# parse-vue-dot-notation
+# parse-vue-binding
 
 
 ## About
