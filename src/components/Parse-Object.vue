@@ -1,10 +1,10 @@
 <template>
   <div style="padding: 20px;">
     foo:
-    <input v-model="_object.foo"/>
+    <input v-model="_object.bind.foo"/>
     <br/>
     bar:
-    <input v-model="_object.bar"/>
+    <input v-model="_object.bind.bar"/>
     <br/>
     <button @click="object.save()">Save</button>
     <button v-if="_object.dirtyKeys().length" @click="_object.revert()">Revert</button>

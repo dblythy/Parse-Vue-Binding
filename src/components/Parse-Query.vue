@@ -3,8 +3,8 @@
     Objects:
     <div v-for="object in objects" :key="object._localId">
       <b>id: {{object.id}}</b>
-      <div v-for="field in Object.keys(object.attributes)" :key="`${field}-${object._localId}`">
-        {{field}}: {{ object[field] }}
+      <div v-for="field in Object.keys(object.bind)" :key="`${field}-${object._localId}`">
+        {{field}}: {{ object.bind[field] }}
       </div>
       <button @click="$emit('edit', object)">Edit</button>
     </div>
